@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        
+        <!-- qual o drive do Banco -->
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<!-- tipo de comunicação com o banco -->
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL57Dialect</property>
+		<!-- conexão com a classe -->
+		<property name = "hibernate.current_session_context_class"> thread </property >
+		<!-- endereço do banco e o nome -->
+		<property name="hibernate.connection.url">jdbc:mysql://localhost/gasto_db</property>
+		<!-- Usuario do banco -->
+		<property name="hibernate.connection.password">asfe098M</property>
+		<!-- Senha do banco -->
+		<property name="hibernate.connection.username">felipe</property>
+		<!-- exibir codigo sql no console -->
+		<property name="hibernate.show_sql">true</property>
+		<!-- exibir codigo sql no formato hibernate -->
+		<property name="hibernate.format_sql">true</property>
+		<!-- fazer a atualização do banco automática quando tiver uma alteração -->
+		<property name="hbm2ddl.auto">update</property>
+		
+		<!-- adicinando classe de entidade -->		
+		
+		<mapping class="br.com.inottec.modelo.EntidadeUsuario" />	
+		<mapping class="br.com.inottec.modelo.EntidadeCartao" />	
+      
+    </session-factory>
+</hibernate-configuration>

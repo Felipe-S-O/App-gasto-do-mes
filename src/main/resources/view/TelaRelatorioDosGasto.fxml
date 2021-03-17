@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="416.0" prefWidth="348.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.inottec.controle.TelaRelatorioDosGastoControlador">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="74.0" layoutX="18.0" layoutY="283.0" stroke="BLACK" strokeType="INSIDE" width="315.0" AnchorPane.bottomAnchor="92.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="283.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="143.0" layoutX="18.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" width="315.0" AnchorPane.bottomAnchor="177.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="129.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fffb3" height="36.0" layoutX="18.0" layoutY="236.0" stroke="BLACK" strokeType="INSIDE" width="315.0" AnchorPane.bottomAnchor="177.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="236.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fffb3" height="36.0" layoutX="18.0" layoutY="165.0" stroke="BLACK" strokeType="INSIDE" width="315.0" AnchorPane.bottomAnchor="248.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="165.0" />
+      <Button layoutX="111.0" layoutY="376.0" mnemonicParsing="false" onAction="#telaInicial" prefHeight="26.0" prefWidth="106.0" text="Voltar" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="121.0" AnchorPane.rightAnchor="121.0" AnchorPane.topAnchor="376.0" />
+      <Text layoutX="27.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total deCartao:" AnchorPane.bottomAnchor="295.0" AnchorPane.leftAnchor="26.7373046875" AnchorPane.rightAnchor="220.2626953125" AnchorPane.topAnchor="138.0" />
+      <Text layoutX="27.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total de Dinheiro:" AnchorPane.bottomAnchor="258.0" AnchorPane.leftAnchor="26.47314453125" AnchorPane.rightAnchor="204.52685546875" AnchorPane.topAnchor="175.0" />
+      <Text layoutX="27.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total dos Gasto Fixo:" AnchorPane.bottomAnchor="224.8671875" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="184.07470703125" AnchorPane.topAnchor="209.0" />
+      <Text layoutX="27.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total dos Gasto Adicional:" AnchorPane.bottomAnchor="187.0" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="151.52392578125" AnchorPane.topAnchor="246.0" />
+      <Button layoutX="233.0" layoutY="76.0" mnemonicParsing="false" text="Lista" AnchorPane.bottomAnchor="314.0" AnchorPane.leftAnchor="233.0" AnchorPane.rightAnchor="53.0" AnchorPane.topAnchor="76.0" />
+      <Text layoutX="24.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total dos Gasto:" AnchorPane.bottomAnchor="136.93408203125" AnchorPane.leftAnchor="24.0" AnchorPane.rightAnchor="217.943359375" AnchorPane.topAnchor="296.93310546875" />
+      <Text layoutX="173.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Saldo:" AnchorPane.bottomAnchor="137.0" AnchorPane.leftAnchor="172.41552734375" AnchorPane.rightAnchor="134.58447265625" AnchorPane.topAnchor="296.0" />
+      <DatePicker layoutX="19.0" layoutY="76.0" prefHeight="26.0" prefWidth="185.0" AnchorPane.bottomAnchor="314.0" AnchorPane.leftAnchor="19.0" AnchorPane.rightAnchor="144.0" AnchorPane.topAnchor="76.0" />
+      <Text layoutX="19.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data:" AnchorPane.bottomAnchor="340.0" AnchorPane.leftAnchor="19.0" AnchorPane.rightAnchor="293.580078125" AnchorPane.topAnchor="60.0" />
+      <Text layoutX="127.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Relatorio " AnchorPane.bottomAnchor="369.7548828125" AnchorPane.leftAnchor="127.0" AnchorPane.rightAnchor="134.181640625" AnchorPane.topAnchor="17.0">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <TextField layoutX="148.0" layoutY="133.0" prefHeight="26.0" prefWidth="159.0" />
+      <TextField layoutX="153.0" layoutY="170.0" prefHeight="26.0" prefWidth="150.0" />
+      <TextField layoutX="173.0" layoutY="204.0" prefHeight="26.0" prefWidth="144.0" />
+      <TextField layoutX="204.0" layoutY="241.0" prefHeight="26.0" prefWidth="116.0" />
+      <TextField layoutX="25.0" layoutY="318.0" prefHeight="26.0" prefWidth="116.0" />
+      <TextField layoutX="170.0" layoutY="315.0" prefHeight="26.0" prefWidth="116.0" />
+   </children>
+</AnchorPane>
